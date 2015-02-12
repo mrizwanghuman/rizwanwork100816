@@ -1,0 +1,70 @@
+body {
+	background: url(../images/pakistanscenery1.jpg) no-repeat;
+	background-size: 1050px 1250px;
+	background-position: center;
+
+}
+#navp{
+	background: #B40404;
+	height: 60px;
+	width: 1000px;
+	border: 5px outset white;
+	margin: 0 auto;
+
+}
+#banner {  
+    width:960px;  
+    height:200px;  
+    margin:auto;  
+    background:url(../images/pakistanscenery1.jpg) repeat 0 0;  
+}  
+   
+#banner p {      
+    font: 15px Arial, Helvetica, sans-serif;  
+    color:white;  
+    position:relative;     
+    left:20px;  
+    top:120px;  
+    width:305px;  
+    padding:20px;  
+    background:black;  
+    text-align:center;  
+    text-transform:uppercase;  
+    letter-spacing:20px;  
+    zoom: 1;  
+    filter: alpha(opacity=50);  
+    opacity: 0.5;       
+}  
+li {
+	display: inline-block;
+	font-size: 32px;
+	color: white;
+	border: 3px outset silver;
+	margin-top: -13px;
+	padding: 5px;
+	list-style: none;
+
+}
+.limar {
+	margin-left: 50px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	color: black;
+	font-size: 32px;
+	
+}
+a:focus{
+color: blue;
+}
+ul {
+	margin-left: -38px;
+}
+#img {
+	width: 500px;
+	height: 300px;
+	background: url(../images/105.jpg) repeat 0 0;
+}

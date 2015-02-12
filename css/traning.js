@@ -1,0 +1,1 @@
+var nemb = prompt("what is your number.");

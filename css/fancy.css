@@ -1,0 +1,131 @@
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+ul {
+	padding: 0;
+}
+li {
+	list-style: none;
+	display: inline-block;
+	box-shadow:-1px 5px 25px #0A0A09;
+	padding:.5%;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 2%;
+	
+}
+a   {
+	text-decoration: none;
+	color: red;
+	text-shadow:-1px 5px 25px black;
+	font-size: 2em;
+	}
+li:hover {
+	color: blue;
+	width: 250px;
+	height: 250px;
+	font-size: 4em;
+	border-radius: 50%;
+	transform: scale(1);
+	-webkit-transform:scale(1);
+    transition:width 2s, transform 1s linear, font-size 3s;
+    -webkit-transition:width 2s, -webkit-transform 1s linear, font-size 3s;;
+}
+
+#cover {
+	background: silver;
+	width: 80%;
+	height: 100%;
+	box-shadow:13px 10px 20px #8A8A81;
+	display: block;
+	color: red;
+	text-shadow:20px 5px 25px black;
+	font-size: 800%;
+	line-height: 5em;
+	padding: 20px;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+#button {
+	width: 200px;
+	height: 100px;
+	background: white;
+	display: block;
+	border: 2px solid red;
+	box-shadow: 2px 10px 20px black;
+}
+/*#button:hover {
+width: 300px;
+height: 150px;
+transform: rotate(10deg), scale(1);
+transition: width 4s, height 4s;
+}*/
+#main {
+	display: block;
+	border: 2px solid red;
+	background: grey;
+	color: white;
+	width: 30%;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+	float: left;
+}
+#main h1 {
+	background: red;
+	display: block;
+	width: auto;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px
+
+}
+#about {
+	display: block;
+	border: 2px solid red;
+	background: grey;
+	color: white;
+	width: 30%;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+	margin-left: 5px;
+	
+	float: left;
+}
+#about h1 {
+	background: red;
+	display: block;
+	width: auto;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+
+}
+#cont {
+	display: block;
+	border: 2px solid red;
+	background: grey;
+	color: white;
+	width: 30%;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+	margin-left: 5px;
+	
+	float: left;
+}
+#cont h1 {
+	background: red;
+	display: block;
+	width: auto;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+
+}
